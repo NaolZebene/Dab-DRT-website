@@ -778,29 +778,64 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
-  padding: 40px 20px;
-  background: linear-gradient(to bottom, #0a5775, 10%, white);
+  position: relative;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
+  padding: 0px;
+  width: 100%;
+  height: 500px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.pricing .box img {
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 500px;
 }
 .pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  transform: rotateY(180deg);
+}
+.box-front,
+.box-back {
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.box-front {
+  background: linear-gradient(to bottom, #0a5775, 60%, #57b947);
+  color: #0a5775;
+}
+.box-front h2 {
+  position: absolute;
+  left: 25%;
+  top: 200px;
+  color: #0a5775;
+  font-weight: 700;
+  font-size: 40px;
+}
+.box-back {
+  background: linear-gradient(to bottom, #0a5775, 60%, #57b947);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 5%;
 }
 .pricing h3 {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 15px;
+  color: white;
 }
 .pricing .boxText {
   font-size: 16px;
   text-align: start;
-  color: black;
+  color: white;
   font-weight: 600;
+  padding: 5%;
 }
 .pricing .price {
   font-size: 36px;
@@ -1232,7 +1267,6 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
 }
@@ -1277,10 +1311,11 @@ section {
 }
 .team .member .member-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 15px;
-  line-height: 26px;
+  line-height: 24px;
   color: #5e5e5e;
+  justify-content: center;
 }
 .team .member:hover {
   transform: scale(1.08);

@@ -311,14 +311,6 @@
     },
   });
 
-  $(function () {
-    $("#welcome").hide();
-  });
-
-  $(function () {
-    $("#welcome").show(1500);
-  });
-
   /**
    * Testimonials slider
    */
@@ -362,3 +354,104 @@
     aos_init();
   });
 })();
+
+const team = document.querySelectorAll(".teams");
+const teamMember = document.querySelectorAll(".teamMember");
+const teamInfo = document.querySelectorAll(".member-info");
+$(function () {
+  $(team[0]).click(function (e) {
+    $(teamMember[1]).hide();
+    $(teamMember[2]).hide();
+    $(teamMember[3]).hide();
+    team[0].classList.remove("col-lg-3");
+    team[0].classList.remove("col-md-6");
+    $(team[0]).animate({
+      width: "100%",
+      height: "730px",
+    });
+    teamInfo[0].children[2].innerText =
+      "Mr. Dereje Getu, has M.Sc. in Economic Policy Analysis from Addis Ababa University and M.Sc. in Globalization and Development from University of Antwerp, Belgium, and is the co-founder, managing director and principal coordinator of consultancy works at DAB DRT. He possesses more than ten years of experience in research and consultancy. His previous experiences include Lecturer, Research and Community Development Coordinator at Debre Markos University, Researcher at Korea Trade and Investment Agency, Sasakawa Global 2000, and International Food Policy Research Institute (IFPRI). Mr. Dereje also has extensive experience in qualitative research and in collaboration with Wageningen and Groningen University evaluation teams. He evaluated a number of Dutch government-funded NGOs in Ethiopia by using a process-tracing approach, a contemporary technique in qualitative evaluation. He also coordinated an end-line survey of Dutch government-funded MDG projects in Afar, Oromia, and Benishangul regions";
+    teamInfo[0].children[2].style.width = "80%";
+    teamInfo[0].children[2].style.textAlign = "center";
+    teamInfo[0].children[2].style.paddingLeft = "10%";
+    e.stopPropagation();
+  });
+  $(team[1]).click(function (e) {
+    $(teamMember[0]).hide();
+    $(teamMember[2]).hide();
+    $(teamMember[3]).hide();
+    team[1].classList.remove("col-lg-3");
+    team[1].classList.remove("col-md-6");
+    $(team[1]).animate({
+      width: "100%",
+      height: "730px",
+    });
+    teamInfo[1].children[2].innerText =
+      "Mr. Dereje Getu, has M.Sc. in Economic Policy Analysis from Addis Ababa University and M.Sc. in Globalization and Development from University of Antwerp, Belgium, and is the co-founder, managing director and principal coordinator of consultancy works at DAB DRT. He possesses more than ten years of experience in research and consultancy. His previous experiences include Lecturer, Research and Community Development Coordinator at Debre Markos University, Researcher at Korea Trade and Investment Agency, Sasakawa Global 2000, and International Food Policy Research Institute (IFPRI). Mr. Dereje also has extensive experience in qualitative research and in collaboration with Wageningen and Groningen University evaluation teams. He evaluated a number of Dutch government-funded NGOs in Ethiopia by using a process-tracing approach, a contemporary technique in qualitative evaluation. He also coordinated an end-line survey of Dutch government-funded MDG projects in Afar, Oromia, and Benishangul regions";
+    teamInfo[1].children[2].style.width = "80%";
+    teamInfo[1].children[2].style.textAlign = "center";
+    teamInfo[1].children[2].style.paddingLeft = "10%";
+    e.stopPropagation();
+  });
+  $(team[2]).click(function (e) {
+    $(teamMember[0]).hide();
+    $(teamMember[1]).hide();
+    $(teamMember[3]).hide();
+    team[2].classList.remove("col-lg-3");
+    team[2].classList.remove("col-md-6");
+    $(team[2]).animate({
+      width: "100%",
+      height: "730px",
+    });
+    teamInfo[2].children[2].innerText =
+      "As Marketing and Project Manager at DAB-Development Research & Training PLC, Yonatan handles the company’s internal affairs, design operations strategies, and help human resources build out core teams.He holds two masters of art degrees in Marketing Management and Logistics & Supplies Chain Management from Mekelle and Addis Ababa universities. He also has been awarded first-level Kaizen [5S Master and 5S Leader] Certificate from Ethiopian Kaizen Institute with TechnoServe.In his four years at DAB-DRT, Yonatan has practical experience of maintaining and monitoring project plans, project schedules, budgets, and expenditures. He has also been working on organizing, attending and participating in training; preparing necessary presentation materials; delivering training to the clients as needed; coordinating the projects with the project implementation team; supervising large scale survey’s; and supporting the gathering of data to feed into a data system, and. He has been undertaking project tasks as required and providing administrative support as needed.Before joining DAB, Yonatan has worked as Facilitation Manager, Junior Market Data Officer, and Business Development Officer at Ethiopian Airports Enterprise, Ethiopian Commodity Exchange, and Fortune Engineering Plc, respectively. Working at these organizations, he was responsible for provides guidance and support to the airport community, represents airports interests with various stakeholders, and encourages industry collaboration to identify improvements in passenger processes and the overall seamless travel experience.He develops business and marketing plans; assists in the company’s branding and media communication activities; research the market; approach, follow up, and close the business deals with prospective clients.He is a lecturer at Hawassa University College of Business & Economics [Department of Marketing Management] since 2017.";
+    teamInfo[2].children[2].style.width = "80%";
+    teamInfo[2].children[2].style.textAlign = "center";
+    teamInfo[2].children[2].style.paddingLeft = "10%";
+    e.stopPropagation();
+  });
+  $(team[3]).click(function (e) {
+    $(teamMember[0]).hide();
+    $(teamMember[1]).hide();
+    $(teamMember[2]).hide();
+    team[3].classList.remove("col-lg-3");
+    team[3].classList.remove("col-md-6");
+    $(team[3]).animate({
+      width: "100%",
+      height: "730px",
+    });
+    teamInfo[3].children[2].innerText =
+      "Mr. Dereje Getu, has M.Sc. in Economic Policy Analysis from Addis Ababa University and M.Sc. in Globalization and Development from University of Antwerp, Belgium, and is the co-founder, managing director and principal coordinator of consultancy works at DAB DRT. He possesses more than ten years of experience in research and consultancy. His previous experiences include Lecturer, Research and Community Development Coordinator at Debre Markos University, Researcher at Korea Trade and Investment Agency, Sasakawa Global 2000, and International Food Policy Research Institute (IFPRI). Mr. Dereje also has extensive experience in qualitative research and in collaboration with Wageningen and Groningen University evaluation teams. He evaluated a number of Dutch government-funded NGOs in Ethiopia by using a process-tracing approach, a contemporary technique in qualitative evaluation. He also coordinated an end-line survey of Dutch government-funded MDG projects in Afar, Oromia, and Benishangul regions";
+    teamInfo[3].children[2].style.width = "80%";
+    teamInfo[3].children[2].style.textAlign = "center";
+    teamInfo[3].children[2].style.paddingLeft = "10%";
+    e.stopPropagation();
+  });
+  $("body").click(function () {
+    for (let teamMem of teamMember) {
+      $(teamMem).show();
+    }
+    const windowWidth = $(window);
+    for (let teamMem of team) {
+      if ($(window).width() <= 1010 && $(window).width() >= 560) {
+        $(teamMem).animate({
+          width: "50%",
+          height: "400px",
+        });
+      } else if ($(window).width() <= 560) {
+        $(teamMem).animate({
+          width: "100%",
+          height: "400px",
+        });
+      } else {
+        $(teamMem).animate({
+          width: "25%",
+          height: "400px",
+        });
+      }
+      for (let teamP of teamInfo) {
+        teamP.children[2].innerText = "";
+      }
+    }
+  });
+});
