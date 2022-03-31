@@ -46,24 +46,23 @@ h6 {
 .headerLocation {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(to right, #0a5775, 20%, white);
+    background:#0a5775;
     color: white;
     justify-content: flex-end;
     align-items: center;
     font-family: "Nunito", sans-serif;
 }
-
 .headerLocation div {
     margin-right: 20px;
     font-size: 12px;
-    color: #57b947;
+    color: white;
     font-weight: 700;
 }
 
 .headerLocation div a {
     font-size: 12px;
     font-weight: 700;
-    color: #57b947;
+    color: white;
 }
 
 section {
@@ -166,7 +165,7 @@ section {
     right: 15px;
     bottom: 15px;
     z-index: 99999;
-    background: #4154f1;
+    background: #0a5775;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -180,7 +179,7 @@ section {
 }
 
 .back-to-top:hover {
-    background: #6776f4;
+    background: #57b947;
     color: #fff;
 }
 
@@ -246,7 +245,7 @@ section {
 }
 
 .header.header-scrolled {
-    background: linear-gradient(225deg, #0a5775, 30%, white);
+    background:white;
     padding: 15px 0;
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -306,27 +305,24 @@ section {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: "Nunito", sans-serif;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
-    color: #013289;
+    color: #0a5775;
     white-space: nowrap;
     transition: 0.3s;
 }
-
 .navbar a i,
 .navbar a:focus i {
-    font-size: 12px;
+    font-size: 19px;
     line-height: 0;
     margin-left: 5px;
 }
-
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #4154f1;
+    color: #57b947;
 }
-
 .navbar .dropdown ul {
     display: block;
     position: absolute;
@@ -342,11 +338,9 @@ section {
     transition: 0.3s;
     border-radius: 4px;
 }
-
 .navbar .dropdown ul li {
     min-width: 200px;
 }
-
 .navbar .dropdown ul a {
     padding: 10px 20px;
     font-size: 15px;
@@ -357,13 +351,11 @@ section {
 .navbar .dropdown ul a i {
     font-size: 12px;
 }
-
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
     color: #4154f1;
 }
-
 .navbar .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
@@ -739,7 +731,7 @@ section {
 
 .features .feature-box h3 {
     font-size: 18px;
-    color: #012970;
+    color: #57b947;
     font-weight: 700;
     margin: 0;
 }
@@ -755,12 +747,12 @@ section {
 }
 
 .features .feature-box:hover i {
-    background: #4154f1;
+    background: #0a5775;
     color: #fff;
 }
 
 .features .feture-tabs h3 {
-    color: #012970;
+    color: #57b947;
     font-weight: 700;
     font-size: 32px;
 }
@@ -780,7 +772,7 @@ section {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 600;
-    color: #012970;
+    color: #0a5775;
     padding: 12px 0;
     margin-right: 25px;
     margin-bottom: -2px;
@@ -788,22 +780,22 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-    color: #4154f1;
-    border-bottom: 3px solid #4154f1;
+    color: #57b947;
+    border-bottom: 3px solid #0a5775;
 }
 
 .features .feture-tabs .tab-content h4 {
     font-size: 18px;
     margin: 0;
     font-weight: 700;
-    color: #012970;
+    color: #57b947;
 }
 
 .features .feture-tabs .tab-content i {
     font-size: 24px;
     line-height: 0;
     margin-right: 8px;
-    color: #4154f1;
+    color: #57b947;
 }
 
 .features .feature-icons {
@@ -811,7 +803,7 @@ section {
 }
 
 .features .feature-icons h3 {
-    color: #012970;
+    color: #57b947;
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 30px;
@@ -1385,16 +1377,6 @@ section {
     max-height: 50px;
     overflow-y: scroll;
 }
-
-.testimonials .testimonial-item .stars {
-    margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-    color: #ffc107;
-    margin: 0 1px;
-}
-
 .testimonials .testimonial-item .testimonial-img {
     width: 90px;
     border-radius: 50%;
@@ -2319,7 +2301,7 @@ section {
 --------------------------------------------------------------*/
 
 .footer {
-    background-image: linear-gradient(to top, #0a5775, 20%, white);
+    background-image: white;
     padding: 0 0 30px 0;
     font-size: 14px;
 }
@@ -2375,7 +2357,7 @@ section {
 }
 
 .footer .footer-top {
-    background: white url(../img/footer-bg.png) no-repeat right top;
+    background: #0a5775;
     background-size: contain;
     border-top: 1px solid #e1ecff;
     border-bottom: 1px solid #e1ecff;
@@ -2397,12 +2379,7 @@ section {
     margin-bottom: 15px;
 }
 
-.footer .footer-top .footer-info .logo img {
-    max-height: 40px;
-    margin-right: 6px;
-}
-
-.footer .footer-top .footer-info .logo span h6 {
+.footer .footer-top .footer-info span h6 {
     font-size: 15px;
     margin: 0px;
 }
@@ -2411,26 +2388,27 @@ section {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0;
+    color: white;
     font-family: "Nunito", sans-serif;
 }
 
 .footer .footer-top .social-links a {
     font-size: 20px;
     display: inline-block;
-    color: rgba(1, 41, 112, 0.5);
+    color: white;
     line-height: 0;
     margin-right: 10px;
     transition: 0.3s;
 }
 
 .footer .footer-top .social-links a:hover {
-    color: #012970;
+    color: #57b947;;
 }
 
 .footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #012970;
+    color: white;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 12px;
@@ -2448,7 +2426,7 @@ section {
 
 .footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #d0d4fc;
+    color: white;
     font-size: 12px;
     line-height: 0;
 }
@@ -2464,14 +2442,14 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-    color: #013289;
+    color: white;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-    color: #4154f1;
+    color: #57b947;
 }
 
 .footer .footer-top .footer-contact p {
@@ -2480,13 +2458,13 @@ section {
 
 .footer .copyright {
     text-align: center;
-    padding-top: 0x;
-    color: #012970;
+    padding-top: 20px;
+    color: #0a5775;
 }
 
 .footer .credits {
     padding-top: 0px;
     text-align: center;
     font-size: 10px;
-    color: #012970;
+    color: #0a5775;
 }
