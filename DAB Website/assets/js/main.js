@@ -417,20 +417,16 @@
     /**
      * Home-animation
      */
-
-    $(function() {
-        $("#welcome-img").delay(3000).fadeToggle(800);
-        $("#welcome-DABDRT").delay(3000).fadeToggle(800);
-        $("#DAB-description").delay(3000).fadeToggle(800);
-        $("#DAB-about").delay(3000).fadeToggle(800);
-        $("#welcome-img1").hide();
-        $("#welcome-DABDRT1").hide();
-        $("#DAB-description1").hide()
-        $("#DAB-about1").hide()
-            //$("#welcome-img1").show();
-            // $("#welcome-DABDRT1").delay(1000).show(1000);
-            // $("#DAB-description1").delay(1500).show(1000);
-            // $("#DAB-about1").delay(2000).show(1000);
+    $(document).ready(function() {
+        setInterval(function() {
+            let active = $('#welcome-DAB .active');
+            let next = (active.next().length > 0) ? active.next() : $('#welcome-DAB img:first');
+            next.css('z-index', 2);
+            active.fadeOut(1500, function() {
+                active.css('z-index', 1).show().removeClass('active');
+                next.css('z-index', 3).addClass('active');
+            });
+        }, 6000);
     });
     /**
      * Testimonials slider
