@@ -1,23 +1,35 @@
 // const dashboard = document.querySelector("#dashboard");
-const profile = document.querySelector("#profile");
-const table = document.querySelector("#table");
-const login = document.querySelector("#login");
-const register = document.querySelector("#register");
+const blog = document.querySelector("#blog");
+const events = document.querySelector("#events");
+const portfolio = document.querySelector("#portfolio");
+const testimonial = document.querySelector("#testimonial");
+const team = document.querySelector("#team");
+const user = document.querySelector("#user");
+const setting = document.querySelector("#setting");
 const sidebartogglebtn = document.querySelector("#sidebarToggle");
 
-// Events
+// events
 
-profile.firstElementChild.addEventListener("click", () => {
-  selectnav(profile);
+blog.firstElementChild.addEventListener("click", () => {
+  selectnav(blog);
 });
-table.firstElementChild.addEventListener("click", () => {
-  selectnav(table);
+events.firstElementChild.addEventListener("click", () => {
+  selectnav(events);
 });
-login.firstElementChild.addEventListener("click", () => {
-  selectnav(login);
+portfolio.firstElementChild.addEventListener("click", () => {
+  selectnav(portfolio);
 });
-register.firstElementChild.addEventListener("click", () => {
-  selectnav(register);
+testimonial.firstElementChild.addEventListener("click", () => {
+  selectnav(testimonial);
+});
+team.firstElementChild.addEventListener("click", () => {
+  selectnav(team);
+});
+user.firstElementChild.addEventListener("click", () => {
+  selectnav(user);
+});
+setting.firstElementChild.addEventListener("click", () => {
+  selectnav(setting);
 });
 sidebartogglebtn.addEventListener("click", () => {
   hidenavchild();
@@ -31,23 +43,14 @@ function selectnav(nav) {
     nav.children[1].classList.toggle("hide");
   } else nav.children[1].classList.toggle("hide");
 }
-function togglenavchild() {
-  profile.children[1].classList.toggle("hide");
-  login.children[1].classList.toggle("hide");
-  table.children[1].classList.toggle("hide");
-  register.children[1].classList.toggle("hide");
-}
 function hidenavchild() {
-  profile.children[1].classList.add("hide");
-  login.children[1].classList.add("hide");
-  table.children[1].classList.add("hide");
-  register.children[1].classList.add("hide");
-}
-function shownavchild() {
-  profile.children[1].classList.remove("hide");
-  login.children[1].classList.remove("hide");
-  table.children[1].classList.remove("hide");
-  register.children[1].classList.remove("hide");
+  blog.children[1].classList.add("hide");
+  portfolio.children[1].classList.add("hide");
+  events.children[1].classList.add("hide");
+  team.children[1].classList.add("hide");
+  testimonial.children[1].classList.add("hide");
+  user.children[1].classList.add("hide");
+  setting.children[1].classList.add("hide");
 }
 function initialize() {
   hidenavchild();
