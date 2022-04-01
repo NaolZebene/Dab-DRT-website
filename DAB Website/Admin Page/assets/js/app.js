@@ -7,19 +7,19 @@ const sidebartogglebtn = document.querySelector("#sidebarToggle");
 
 // Events
 dashboard.firstElementChild.addEventListener("click", () => {
-  dashboard.children[1].classList.toggle("hide");
+  selectnav(dashboard);
 });
 profile.firstElementChild.addEventListener("click", () => {
-  profile.children[1].classList.toggle("hide");
+  selectnav(profile);
 });
 table.firstElementChild.addEventListener("click", () => {
-  table.children[1].classList.toggle("hide");
+  selectnav(table);
 });
 login.firstElementChild.addEventListener("click", () => {
-  login.children[1].classList.toggle("hide");
+  selectnav(login);
 });
 register.firstElementChild.addEventListener("click", () => {
-  register.children[1].classList.toggle("hide");
+  selectnav(register);
 });
 sidebartogglebtn.addEventListener("click", () => {
   hidenavchild();
@@ -27,6 +27,12 @@ sidebartogglebtn.addEventListener("click", () => {
 
 //functions
 //definations
+function selectnav(nav) {
+  if (nav.children[1].classList.contains("hide")) {
+    hidenavchild();
+    nav.children[1].classList.toggle("hide");
+  } else nav.children[1].classList.toggle("hide");
+}
 function togglenavchild() {
   dashboard.children[1].classList.toggle("hide");
   profile.children[1].classList.toggle("hide");
