@@ -10,7 +10,16 @@
 .nav-item > ul {
   background-color: rgb(28 107 224); 
 }
-
+.topnavbar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.comtitle{
+margin:auto;
+color: #224abe;
+}
 .hide {
   display: none;
 }
