@@ -1,4 +1,4 @@
-const dashboard = document.querySelector("#dashboard");
+// const dashboard = document.querySelector("#dashboard");
 const profile = document.querySelector("#profile");
 const table = document.querySelector("#table");
 const login = document.querySelector("#login");
@@ -6,9 +6,7 @@ const register = document.querySelector("#register");
 const sidebartogglebtn = document.querySelector("#sidebarToggle");
 
 // Events
-dashboard.firstElementChild.addEventListener("click", () => {
-  selectnav(dashboard);
-});
+
 profile.firstElementChild.addEventListener("click", () => {
   selectnav(profile);
 });
@@ -34,21 +32,18 @@ function selectnav(nav) {
   } else nav.children[1].classList.toggle("hide");
 }
 function togglenavchild() {
-  dashboard.children[1].classList.toggle("hide");
   profile.children[1].classList.toggle("hide");
   login.children[1].classList.toggle("hide");
   table.children[1].classList.toggle("hide");
   register.children[1].classList.toggle("hide");
 }
 function hidenavchild() {
-  dashboard.children[1].classList.add("hide");
   profile.children[1].classList.add("hide");
   login.children[1].classList.add("hide");
   table.children[1].classList.add("hide");
   register.children[1].classList.add("hide");
 }
 function shownavchild() {
-  dashboard.children[1].classList.remove("hide");
   profile.children[1].classList.remove("hide");
   login.children[1].classList.remove("hide");
   table.children[1].classList.remove("hide");
