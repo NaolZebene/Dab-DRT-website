@@ -8,11 +8,9 @@
    background-color: rgb(207 142 39)
 }
 .nav-item > ul {
-  
   background-color: rgb(28 107 224); 
-
-
 }
+
 .hide {
   display: none;
 }
