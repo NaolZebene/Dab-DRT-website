@@ -6,18 +6,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>Profile - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <title>Event Catagories</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     />
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="../assets/css/app.css" />
   </head>
 
   <body id="page-top">
     <div id="wrapper">
+      <!-- left navigation part -->
       <nav
         class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0"
       >
@@ -28,208 +29,191 @@
               href="#"
             >
               <div class="sidebar-brand-icon">
-                <img  src="assets/img/logo.svg" height="60"/>
+                <img src="../assets/img/logo.svg" height="60" />
               </div>
               <div class="sidebar-brand-text mx-3"><span></span></div>
             </a>
-            </div>
+          </div>
           <hr class="sidebar-divider my-0" />
           <ul class="nav navbar-nav text-light" id="accordionSidebar">
             <!-- dashboard -->
             <li id="dashboard" class="nav-item" role="presentation">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="../index.html"
                 ><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a
               >
               <!-- sub nav bar for dashboard-->
-              <ul class="nav-childs" id="dashboardChilds">
-                <li
-                  class="nav-childs"
-                  id="dashboardc1"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="index.html"
-                    ><i class="fas"></i><span>sub branch link</span></a
-                  >
-                </li>
-                <li
-                  class="nav-childs"
-                  id="dashboardc1"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="index.html"
-                    ><i class="fas"></i><span>second branch link</span></a
-                  >
-                </li>
-                <li
-                  class="nav-childs"
-                  id="dashboardc1"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="index.html"
-                    ><i class="fas"></i><span>Third branch link</span></a
-                  >
-                </li>
-              </ul>
             </li>
-            <!-- profile -->
-            <li id="profile" class="nav-item" role="presentation">
-              <a class="nav-link active selected-nav" href="#"
-                ><i class="fas fa-user"></i><span>Profile</span></a
-              >
-              <!-- sub nav bar for profile -->
-              <ul class="nav-childs" id="profileChilds">
-                <li
-                  class="nav-childs"
-                  id="profileli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="profile.html"
-                    ><i class="fas"></i><span>sub branch link</span></a
-                  >
-                </li>
-                <li
-                  class="nav-childs"
-                  id="profileli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="profile.html"
-                    ><i class="fas"></i><span>second branch link</span></a
-                  >
-                </li>
-                <li
-                  class="nav-childs"
-                  id="profileli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="profile.html"
-                    ><i class="fas"></i><span>Third branch link</span></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <!-- table -->
-            <li id="table" class="nav-item" role="presentation">
+            <!-- blog post -->
+            <li id="blog" class="nav-item" role="presentation">
               <a class="nav-link" href="#"
-                ><i class="fas fa-table"></i><span>Table</span></a
+                ><i class="fab fa-blogger-b"></i><span>Blog post</span></a
               >
-              <!-- sub nav bar -->
-              <ul class="nav-childs" id="tableChilds">
-                <li
-                  class="nav-childs"
-                  id="tableli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="table.html"
-                    ><i class="fas"></i><span>sub branch link</span></a
+              <!-- sub nav bar for blog post -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Blog/blog-new.html"
+                    ><i class="fa fa-plus"></i><span>Add new</span></a
                   >
                 </li>
-                <li
-                  class="nav-childs"
-                  id="tableli="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="table.html"
-                    ><i class="fas"></i><span>second branch link</span></a
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Blog/blog-catagories.html"
+                    ><i class="fa fa-list-alt"></i><span>Catagories</span></a
                   >
                 </li>
-                <li
-                  class="nav-childs"
-                  id="tableli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="table.html"
-                    ><i class="fas"></i><span>Third branch link</span></a
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Blog/blog-tags.html"
+                    ><i class="fas fa-tag"></i><span>Tags</span></a
                   >
                 </li>
               </ul>
             </li>
-            <!-- login -->
-            <li id="login" class="nav-item" role="presentation">
-              <a class="nav-link" href="#"
-                ><i class="far fa-user-circle"></i><span>Login</span></a
+            <!-- Events -->
+            <li id="events" class="nav-item" role="presentation">
+              <a class="nav-link active" href="#"
+                ><i class="fas fa-calendar-alt"></i><span>Events</span></a
               >
-              <!-- sub nav bar -->
-              <ul class="nav-childs" id="loginChilds">
-                <li
-                  class="nav-childs"
-                  id="loginli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="login.html"
-                    ><i class="fas"></i><span>sub branch link</span></a
+              <!-- sub nav bar for evetns -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Event/event-new.html"
+                    ><i class="fa fa-plus"></i><span>Add new</span></a
                   >
                 </li>
-                <li
-                  class="nav-childs"
-                  id="loginli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="login.html"
-                    ><i class="fas"></i><span>second branch link</span></a
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Event/event-catagories.html"
+                    ><i class="fas fa-list-alt"></i><span>Catagories</span></a
                   >
                 </li>
-                <li
-                  class="nav-childs"
-                  id="tableli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="login.html"
-                    ><i class="fas"></i><span>Third branch link</span></a
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Event/event-tags.html"
+                    ><i class="fas fa-tag"></i><span>Tags</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Event/venue.html"
+                    ><i class="fas fa-location-arrow"></i><span>Venue</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Event/organizers.html"
+                    ><i class="fas fa-columns"></i><span>Organizers</span></a
                   >
                 </li>
               </ul>
             </li>
-            <!-- register -->
-            <li id="register" class="nav-item" role="presentation">
+            <!-- portfolio -->
+            <li id="portfolio" class="nav-item" role="presentation">
               <a class="nav-link" href="#"
-                ><i class="fas fa-user-circle"></i><span>Register</span></a
+                ><i class="fa fa-briefcase"></i><span>Portfolio</span></a
               >
-               <!-- sub nav bar -->
-               <ul class="nav-childs" id="registerChilds">
-                <li
-                  class="nav-childs"
-                  id="registerli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="register.html"
-                    ><i class="fas"></i><span>sub branch link</span></a
+              <!-- sub nav bar for portfolio -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Portfolio/all-projects.html"
+                    ><i class="fas fa-border-all"></i
+                    ><span>All Projects</span></a
                   >
                 </li>
-                <li
-                  class="nav-childs"
-                  id="registerli="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="register.html"
-                    ><i class="fas"></i><span>second branch link</span></a
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Portfolio/portfolio-new.html"
+                    ><i class="fas fa-plus"></i><span>Add new</span></a
                   >
                 </li>
-                <li
-                  class="nav-childs"
-                  id="registerli"
-                  class="nav-item"
-                  role="presentation"
-                >
-                  <a class="nav-link" href="register.html"
-                    ><i class="fas"></i><span>Third branch link</span></a
+                <li class="nav-childs nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    href="../Portfolio/portfolio-catagories.html"
+                    ><i class="fas fa-list-alt"></i><span>Catagories</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- Testimonial -->
+            <li id="testimonial" class="nav-item" role="presentation">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-comment-dots"></i><span>Testimonial</span></a
+              >
+              <!-- sub nav bar for Testimonial -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    href="../Testimonial/all-testimonials.html"
+                    ><i class="fa fa-border-all"></i
+                    ><span>All testimonial</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Testimonial/testimonial-new.html"
+                    ><i class="fas fa-plus"></i><span>Add new</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- teams -->
+            <li id="team" class="nav-item" role="presentation">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-user-plus"></i><span>Team</span></a
+              >
+              <!-- sub nav bar for teams -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Team/Teams.html"
+                    ><i class="fas fa-border-all"></i><span>Teams</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Team/team-new.html"
+                    ><i class="fas fa-plus"></i><span>Add new</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- user -->
+            <li id="user" class="nav-item" role="presentation">
+              <a class="nav-link selected-nav" href="#"
+                ><i class="fas fa-user"></i><span>User</span></a
+              >
+              <!-- sub nav bar for user -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="all-users.html"
+                    ><i class="fas fa-border-all"></i><span>Users</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="user-new.html"
+                    ><i class="fas fa-plus"></i><span>Add new</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link selected-nav" href="profile.html"
+                    ><i class="fas fa-user"></i><span>Profile</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- settings -->
+            <li id="setting" class="nav-item" role="presentation">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-wrench"></i><span>Settings</span></a
+              >
+              <!-- sub nav bar for setting -->
+              <ul class="nav-childs">
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Setting/general.html"
+                    ><i class="fa fa-shield-alt"></i><span>General</span></a
+                  >
+                </li>
+                <li class="nav-childs nav-item" role="presentation">
+                  <a class="nav-link" href="../Setting/security.html"
+                    ><i class="fas fa-lock"></i><span>Security</span></a
                   >
                 </li>
               </ul>
             </li>
           </ul>
-          <!-- End of left navigations -->
+          <!-- left nav button -->
           <div class="text-center d-none d-md-inline">
             <button
               class="btn rounded-circle border-0"
@@ -238,309 +222,73 @@
             ></button>
           </div>
         </div>
+        <!-- End of left navigations -->
+        <!-- top nav bar and main container -->
       </nav>
       <div class="d-flex flex-column" id="content-wrapper">
         <div id="content">
+          <!-- top nav bar -->
           <nav
             class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top"
           >
-            <div class="container-fluid">
-              <button
-                class="btn btn-link d-md-none rounded-circle mr-3"
-                id="sidebarToggleTop"
-                type="button"
-              >
-                <i class="fas fa-bars"></i>
-              </button>
-              <form
-                class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"
-              >
-                <div class="input-group">
-                  <input
-                    class="bg-light form-control border-0 small"
-                    type="text"
-                    placeholder="Search for ..."
-                  />
-                  <div class="input-group-append">
-                    <button class="btn btn-primary py-0" type="button">
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </div>
-                </div>
-              </form>
-              <ul class="nav navbar-nav flex-nowrap ml-auto">
-                <li class="nav-item dropdown d-sm-none no-arrow">
+            <div class="topnavbar">
+              <div class="comtitle">
+                <span
+                  ><h3 class="text-dark mb-0">
+                    DAB Deveopment, Research and Traning
+                  </h3></span
+                >
+              </div>
+              <div class="nav-item dropdown no-arrow">
+                <a
+                  class="dropdown-toggle nav-link"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  href="#"
+                  ><span class="d-none d-lg-inline mr-2 text-gray-600 small"
+                    >Admin</span
+                  ><img
+                    class="border rounded-circle img-profile"
+                    src="../assets/img/avatars/default.png"
+                /></a>
+                <div
+                  class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
+                  role="menu"
+                >
                   <a
-                    class="dropdown-toggle nav-link"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                    href="#"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                  <div
-                    class="dropdown-menu dropdown-menu-right p-3 animated--grow-in"
-                    role="menu"
-                    aria-labelledby="searchDropdown"
+                    class="dropdown-item"
+                    role="presentation"
+                    href="profile.html"
+                    ><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i
+                    >&nbsp;Profile</a
+                  ><a
+                    class="dropdown-item"
+                    role="presentation"
+                    href="setting.html"
+                    ><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i
+                    >&nbsp;Settings</a
                   >
-                    <form class="form-inline mr-auto navbar-search w-100">
-                      <div class="input-group">
-                        <input
-                          class="bg-light form-control border-0 small"
-                          type="text"
-                          placeholder="Search for ..."
-                        />
-                        <div class="input-group-append">
-                          <button class="btn btn-primary py-0" type="button">
-                            <i class="fas fa-search"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </li>
-                <li class="nav-item dropdown no-arrow mx-1" role="presentation">
-                  <div class="nav-item dropdown no-arrow">
-                    <a
-                      class="dropdown-toggle nav-link"
-                      data-toggle="dropdown"
-                      aria-expanded="false"
-                      href="#"
-                      ><span class="badge badge-danger badge-counter">3+</span
-                      ><i class="fas fa-bell fa-fw"></i
-                    ></a>
-                    <div
-                      class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
-                      role="menu"
-                    >
-                      <h6 class="dropdown-header">alerts center</h6>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="mr-3">
-                          <div class="bg-primary icon-circle">
-                            <i class="fas fa-file-alt text-white"></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="small text-gray-500"
-                            >December 12, 2019</span
-                          >
-                          <p>A new monthly report is ready to download!</p>
-                        </div>
-                      </a>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="mr-3">
-                          <div class="bg-success icon-circle">
-                            <i class="fas fa-donate text-white"></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="small text-gray-500"
-                            >December 7, 2019</span
-                          >
-                          <p>$290.29 has been deposited into your account!</p>
-                        </div>
-                      </a>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="mr-3">
-                          <div class="bg-warning icon-circle">
-                            <i
-                              class="fas fa-exclamation-triangle text-white"
-                            ></i>
-                          </div>
-                        </div>
-                        <div>
-                          <span class="small text-gray-500"
-                            >December 2, 2019</span
-                          >
-                          <p>
-                            Spending Alert: We've noticed unusually high
-                            spending for your account.
-                          </p>
-                        </div> </a
-                      ><a
-                        class="text-center dropdown-item small text-gray-500"
-                        href="#"
-                        >Show All Alerts</a
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown no-arrow mx-1" role="presentation">
-                  <div class="nav-item dropdown no-arrow">
-                    <a
-                      class="dropdown-toggle nav-link"
-                      data-toggle="dropdown"
-                      aria-expanded="false"
-                      href="#"
-                      ><i class="fas fa-envelope fa-fw"></i
-                      ><span class="badge badge-danger badge-counter"
-                        >7</span
-                      ></a
-                    >
-                    <div
-                      class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
-                      role="menu"
-                    >
-                      <h6 class="dropdown-header">alerts center</h6>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="dropdown-list-image mr-3">
-                          <img
-                            class="rounded-circle"
-                            src="assets/img/avatars/avatar4.jpeg"
-                          />
-                          <div class="bg-success status-indicator"></div>
-                        </div>
-                        <div class="font-weight-bold">
-                          <div class="text-truncate">
-                            <span
-                              >Hi there! I am wondering if you can help me with
-                              a problem I've been having.</span
-                            >
-                          </div>
-                          <p class="small text-gray-500 mb-0">
-                            Emily Fowler - 58m
-                          </p>
-                        </div>
-                      </a>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="dropdown-list-image mr-3">
-                          <img
-                            class="rounded-circle"
-                            src="assets/img/avatars/avatar2.jpeg"
-                          />
-                          <div class="status-indicator"></div>
-                        </div>
-                        <div class="font-weight-bold">
-                          <div class="text-truncate">
-                            <span
-                              >I have the photos that you ordered last
-                              month!</span
-                            >
-                          </div>
-                          <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
-                        </div>
-                      </a>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="dropdown-list-image mr-3">
-                          <img
-                            class="rounded-circle"
-                            src="assets/img/avatars/avatar3.jpeg"
-                          />
-                          <div class="bg-warning status-indicator"></div>
-                        </div>
-                        <div class="font-weight-bold">
-                          <div class="text-truncate">
-                            <span
-                              >Last month's report looks great, I am very happy
-                              with the progress so far, keep up the good
-                              work!</span
-                            >
-                          </div>
-                          <p class="small text-gray-500 mb-0">
-                            Morgan Alvarez - 2d
-                          </p>
-                        </div>
-                      </a>
-                      <a
-                        class="d-flex align-items-center dropdown-item"
-                        href="#"
-                      >
-                        <div class="dropdown-list-image mr-3">
-                          <img
-                            class="rounded-circle"
-                            src="assets/img/avatars/avatar5.jpeg"
-                          />
-                          <div class="bg-success status-indicator"></div>
-                        </div>
-                        <div class="font-weight-bold">
-                          <div class="text-truncate">
-                            <span
-                              >Am I a good boy? The reason I ask is because
-                              someone told me that people say this to all dogs,
-                              even if they aren't good...</span
-                            >
-                          </div>
-                          <p class="small text-gray-500 mb-0">
-                            Chicken the Dog · 2w
-                          </p>
-                        </div> </a
-                      ><a
-                        class="text-center dropdown-item small text-gray-500"
-                        href="#"
-                        >Show All Alerts</a
-                      >
-                    </div>
-                  </div>
-                  <div
-                    class="shadow dropdown-list dropdown-menu dropdown-menu-right"
-                    aria-labelledby="alertsDropdown"
-                  ></div>
-                </li>
-                <div class="d-none d-sm-block topbar-divider"></div>
-                <li class="nav-item dropdown no-arrow" role="presentation">
-                  <div class="nav-item dropdown no-arrow">
-                    <a
-                      class="dropdown-toggle nav-link"
-                      data-toggle="dropdown"
-                      aria-expanded="false"
-                      href="#"
-                      ><span class="d-none d-lg-inline mr-2 text-gray-600 small"
-                        >Valerie Luna</span
-                      ><img
-                        class="border rounded-circle img-profile"
-                        src="assets/img/avatars/avatar1.jpeg"
-                    /></a>
-                    <div
-                      class="dropdown-menu shadow dropdown-menu-right animated--grow-in"
-                      role="menu"
-                    >
-                      <a class="dropdown-item" role="presentation" href="#"
-                        ><i
-                          class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"
-                        ></i
-                        >&nbsp;Profile</a
-                      ><a class="dropdown-item" role="presentation" href="#"
-                        ><i
-                          class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"
-                        ></i
-                        >&nbsp;Settings</a
-                      >
-                      <a class="dropdown-item" role="presentation" href="#"
-                        ><i
-                          class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"
-                        ></i
-                        >&nbsp;Activity log</a
-                      >
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" role="presentation" href="#"
-                        ><i
-                          class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"
-                        ></i
-                        >&nbsp;Logout</a
-                      >
-                    </div>
-                  </div>
-                </li>
-              </ul>
+                  <a
+                    class="dropdown-item"
+                    role="presentation"
+                    href="activity.html"
+                    ><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i
+                    >&nbsp;Activity log</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" role="presentation" href="login.html"
+                    ><i
+                      class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"
+                    ></i
+                    >&nbsp;Logout</a
+                  >
+                </div>
+              </div>
             </div>
           </nav>
+          <!-- end of top nav bar -->
+
+          <!-- main container  -->
           <div class="container-fluid">
             <h3 class="text-dark mb-4">Profile</h3>
             <div class="row mb-3">
@@ -549,7 +297,7 @@
                   <div class="card-body text-center shadow">
                     <img
                       class="rounded-circle mb-3 mt-4"
-                      src="assets/img/dogs/image2.jpeg"
+                      src="../assets/img/dogs/image2.jpeg"
                       width="160"
                       height="160"
                     />
@@ -709,7 +457,7 @@
                                 ><input
                                   class="form-control"
                                   type="email"
-                                  placeholder="user@example.com"
+                                  placeholder="consult_dab@dabdrt.com"
                                   name="email"
                                 />
                               </div>
@@ -723,7 +471,7 @@
                                 ><input
                                   class="form-control"
                                   type="text"
-                                  placeholder="John"
+                                  placeholder="Abebe"
                                   name="first_name"
                                 />
                               </div>
@@ -735,7 +483,7 @@
                                 ><input
                                   class="form-control"
                                   type="text"
-                                  placeholder="Doe"
+                                  placeholder="Kebede"
                                   name="last_name"
                                 />
                               </div>
@@ -765,7 +513,7 @@
                             ><input
                               class="form-control"
                               type="text"
-                              placeholder="Sunset Blvd, 38"
+                              placeholder="2R9C+P3G, Addis Ababa"
                               name="address"
                             />
                           </div>
@@ -776,7 +524,7 @@
                                 ><input
                                   class="form-control"
                                   type="text"
-                                  placeholder="Los Angeles"
+                                  placeholder="Addis Ababa"
                                   name="city"
                                 />
                               </div>
@@ -788,7 +536,7 @@
                                 ><input
                                   class="form-control"
                                   type="text"
-                                  placeholder="USA"
+                                  placeholder="Ethiopia"
                                   name="country"
                                 />
                               </div>
@@ -851,10 +599,11 @@
             </div>
           </div>
         </div>
+        <!-- footer part-->
         <footer class="bg-white sticky-footer">
           <div class="container my-auto">
             <div class="text-center my-auto copyright">
-              <span>Copyright © Brand 2022</span>
+              <span>Copyright © DAB-DRT 2022</span>
             </div>
           </div>
         </footer>
@@ -863,12 +612,12 @@
         ><i class="fas fa-angle-up"></i
       ></a>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/chart.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/app.js"></script>
   </body>
 </html>
