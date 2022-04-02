@@ -515,6 +515,10 @@ section {
     z-index: 1;
 }
 
+#welcome-DAB .welcome-img.active {
+    z-index: 5;
+}
+
 #welcome-DABDRT {
     position: absolute;
     top: 25vh;
@@ -541,6 +545,136 @@ section {
     width: 50%;
     color: black;
     z-index: 6;
+}
+
+#agriculture-title {
+    position: absolute;
+    top: 25vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    font-size: 26px;
+    padding: 15px;
+    background-color: #0a5775;
+    display: none;
+}
+
+#agri-description {
+    position: absolute;
+    top: 50vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    padding: 20px;
+    padding-right: 10%;
+    background-color: #0a5775;
+    display: none;
+}
+
+#health-title {
+    position: absolute;
+    top: 25vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    font-size: 26px;
+    padding: 15px;
+    background-color: #0a5775;
+    display: none;
+}
+
+#health-description {
+    position: absolute;
+    top: 50vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    padding: 20px;
+    padding-right: 10%;
+    background-color: #0a5775;
+    display: none;
+}
+
+#gender-title {
+    position: absolute;
+    top: 25vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    font-size: 26px;
+    padding: 15px;
+    background-color: #0a5775;
+    display: none;
+}
+
+#gender-description {
+    position: absolute;
+    top: 50vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    padding: 20px;
+    padding-right: 10%;
+    background-color: #0a5775;
+    display: none;
+}
+
+#capacity-title {
+    position: absolute;
+    top: 25vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    font-size: 26px;
+    padding: 15px;
+    background-color: #0a5775;
+    display: none;
+}
+
+#capacity-description {
+    position: absolute;
+    top: 50vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    padding: 20px;
+    padding-right: 10%;
+    background-color: #0a5775;
+    display: none;
+}
+
+#resource-title {
+    position: absolute;
+    top: 25vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    font-size: 26px;
+    padding: 15px;
+    background-color: #0a5775;
+    display: none;
+}
+
+#resource-description {
+    position: absolute;
+    top: 50vh;
+    left: 60%;
+    width: 50%;
+    color: white;
+    z-index: 6;
+    padding: 20px;
+    padding-right: 10%;
+    background-color: #0a5775;
+    display: none;
 }
 
 .hero {

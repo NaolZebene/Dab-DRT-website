@@ -428,6 +428,59 @@
             });
         }, 6000);
     });
+    $(document).ready(function() {
+        $("#agriculture-title").delay(6000).slideDown(1500);
+        $("#agri-description").delay(6000).slideDown(1500);
+        $("#health-title").delay(12000).slideDown(1500);
+        $("#health-description").delay(12000).slideDown(1500);
+        $("#gender-title").delay(18000).slideDown(1500);
+        $("#gender-description").delay(18000).slideDown(1500);
+        $("#capacity-title").delay(24000).slideDown(1500);
+        $("#capacity-description").delay(24000).slideDown(1500);
+        $("#resource-title").delay(30000).slideDown(1500);
+        $("#resource-description").delay(30000).slideDown(1500);
+    })
+    $(document).ready(function() {
+        setInterval(function() {
+            $("#welcome-DABDRT").delay(5000).fadeOut(500);
+            $("#DAB-description").delay(5000).fadeOut(500);
+            $("#DAB-about").delay(5000).fadeOut(500);
+            $("#agriculture-title").delay(4500).fadeOut(500);
+            $("#agri-description").delay(4500).fadeOut(500);
+            $("#health-title").delay(4500).fadeOut(500);
+            $("#health-description").delay(4500).fadeOut(500);
+            $("#gender-title").delay(4500).fadeOut(500);
+            $("#gender-description").delay(4500).fadeOut(500);
+            $("#capacity-title").delay(4500).fadeOut(500);
+            $("#capacity-description").delay(4500).fadeOut(500);
+            $("#resource-title").delay(4500).fadeOut(500);
+            $("#resource-description").delay(4500).fadeOut(500);
+        });
+    });
+    $(document).ready(function() {
+        setInterval(function() {
+            // $("#welcome-DABDRT").delay(31000).slideDown(1000);
+            // $("#DAB-description").delay(31000).slideDown(1000);
+            // $("#DAB-about").delay(31000).slideDown(1000);
+            $("#agriculture-title").delay(30000).slideDown(1000);
+            $("#agri-description").delay(30000).slideDown(1000);
+            $("#health-title").delay(30000).slideDown(1000);
+            $("#health-description").delay(30000).slideDown(1000);
+            $("#gender-title").delay(30000).slideDown(1000);
+            $("#gender-description").delay(30000).slideDown(1000);
+            $("#capacity-title").delay(30000).slideDown(1000);
+            $("#capacity-description").delay(30000).slideDown(1000);
+            $("#resource-title").delay(30000).slideDown(1000);
+            $("#resource-description").delay(30000).slideDown(1000);
+        });
+    });
+    $(document).ready(function() {
+        setInterval(function() {
+            $("#welcome-DABDRT").delay(30000).slideDown(1000);
+            $("#DAB-description").delay(30000).slideDown(1000);
+            $("#DAB-about").delay(30000).slideDown(1000);
+        });
+    });
     /**
      * Testimonials slider
      */
