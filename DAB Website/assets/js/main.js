@@ -417,20 +417,69 @@
     /**
      * Home-animation
      */
-
-    $(function() {
-        $("#welcome-img").delay(3000).fadeToggle(800);
-        $("#welcome-DABDRT").delay(3000).fadeToggle(800);
-        $("#DAB-description").delay(3000).fadeToggle(800);
-        $("#DAB-about").delay(3000).fadeToggle(800);
-        $("#welcome-img1").hide();
-        $("#welcome-DABDRT1").hide();
-        $("#DAB-description1").hide()
-        $("#DAB-about1").hide()
-            //$("#welcome-img1").show();
-            // $("#welcome-DABDRT1").delay(1000).show(1000);
-            // $("#DAB-description1").delay(1500).show(1000);
-            // $("#DAB-about1").delay(2000).show(1000);
+    $(document).ready(function() {
+        setInterval(function() {
+            let active = $('#welcome-DAB .active');
+            let next = (active.next().length > 0) ? active.next() : $('#welcome-DAB img:first');
+            next.css('z-index', 2);
+            active.fadeOut(1500, function() {
+                active.css('z-index', 1).show().removeClass('active');
+                next.css('z-index', 3).addClass('active');
+            });
+        }, 6000);
+    });
+    $(document).ready(function() {
+        $("#agriculture-title").delay(6000).slideDown(1500);
+        $("#agri-description").delay(6000).slideDown(1500);
+        $("#health-title").delay(12000).slideDown(1500);
+        $("#health-description").delay(12000).slideDown(1500);
+        $("#gender-title").delay(18000).slideDown(1500);
+        $("#gender-description").delay(18000).slideDown(1500);
+        $("#capacity-title").delay(24000).slideDown(1500);
+        $("#capacity-description").delay(24000).slideDown(1500);
+        $("#resource-title").delay(30000).slideDown(1500);
+        $("#resource-description").delay(30000).slideDown(1500);
+    })
+    $(document).ready(function() {
+        setInterval(function() {
+            $("#welcome-DABDRT").delay(5000).fadeOut(500);
+            $("#DAB-description").delay(5000).fadeOut(500);
+            $("#DAB-about").delay(5000).fadeOut(500);
+            $("#agriculture-title").delay(4500).fadeOut(500);
+            $("#agri-description").delay(4500).fadeOut(500);
+            $("#health-title").delay(4500).fadeOut(500);
+            $("#health-description").delay(4500).fadeOut(500);
+            $("#gender-title").delay(4500).fadeOut(500);
+            $("#gender-description").delay(4500).fadeOut(500);
+            $("#capacity-title").delay(4500).fadeOut(500);
+            $("#capacity-description").delay(4500).fadeOut(500);
+            $("#resource-title").delay(4500).fadeOut(500);
+            $("#resource-description").delay(4500).fadeOut(500);
+        });
+    });
+    $(document).ready(function() {
+        setInterval(function() {
+            // $("#welcome-DABDRT").delay(31000).slideDown(1000);
+            // $("#DAB-description").delay(31000).slideDown(1000);
+            // $("#DAB-about").delay(31000).slideDown(1000);
+            $("#agriculture-title").delay(30000).slideDown(1000);
+            $("#agri-description").delay(30000).slideDown(1000);
+            $("#health-title").delay(30000).slideDown(1000);
+            $("#health-description").delay(30000).slideDown(1000);
+            $("#gender-title").delay(30000).slideDown(1000);
+            $("#gender-description").delay(30000).slideDown(1000);
+            $("#capacity-title").delay(30000).slideDown(1000);
+            $("#capacity-description").delay(30000).slideDown(1000);
+            $("#resource-title").delay(30000).slideDown(1000);
+            $("#resource-description").delay(30000).slideDown(1000);
+        });
+    });
+    $(document).ready(function() {
+        setInterval(function() {
+            $("#welcome-DABDRT").delay(30000).slideDown(1000);
+            $("#DAB-description").delay(30000).slideDown(1000);
+            $("#DAB-about").delay(30000).slideDown(1000);
+        });
     });
     /**
      * Testimonials slider
