@@ -362,7 +362,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #4154f1;
+    color: #57b947;
 }
 
 .navbar .dropdown:hover>ul {
@@ -455,13 +455,13 @@ section {
 .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #012970;
+    color: #0a5775;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #4154f1;
+    color: #57b947;
 }
 
 .navbar-mobile .dropdown ul {
@@ -491,7 +491,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #4154f1;
+    color: #57b947;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -1738,14 +1738,8 @@ section {
 --------------------------------------------------------------*/
 
 .clients .clients-slider .swiper-slide img {
-    opacity: 0.5;
     transition: 0.3s;
 }
-
-.clients .clients-slider .swiper-slide img:hover {
-    opacity: 1;
-}
-
 .clients .clients-slider .swiper-pagination {
     margin-top: 20px;
     position: relative;
