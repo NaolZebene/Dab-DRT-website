@@ -299,32 +299,46 @@
           <!-- end of top nav bar -->
 
           <!-- main container  -->
-          <div class="container-fluid row">
-            <div class="col-9 col-md-8 col-sm-12">
-              <table class="table table-striped postBlogTable">
-                <thead class="background-dark text-center">
-                  <tr>
-                    <th>#</th>
-                    <th>Title</th>
-                    <th>Category</th>
-                    <th>Date</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody id="postLatestTableBody"></tbody>
-              </table>
-            </div>
-            <div class="col-1"></div>
-            <div class="col-2" style="margin-left: 10px">
-              <div class="card text-center background-primary mb-3">
-                <div class="card-body">
-                  <h3>Total Blogs</h3>
-                  <h4 class="display-4">
-                    <span id="postCount">23</span>
-                  </h4>
-                  <a href="blog-new.html" class="btn btn-outline-dark btn-sm"
-                    ><i class="fas fa-plus"></i> Add new Blog</a
-                  >
+
+          <div class="container-fluid">
+            <h3 class="modal-title text-dark mb-4">All Blog</h3>
+            <div class="card shadow">
+              <div class="card-header py-3">
+                <p class="text-primary m-0 font-weight-bold">Add Blog Posts</p>
+              </div>
+              <div class="card-body">
+                <div class="modal-body row">
+                  <div class="col-9 col-md-8 col-sm-12">
+                    <table class="table table-striped postBlogTable">
+                      <thead class="background-dark text-center">
+                        <tr>
+                          <th>#</th>
+                          <th>Title</th>
+                          <th>Category</th>
+                          <th>Tags</th>
+                          <th>Date</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody id="postLatestTableblog"></tbody>
+                    </table>
+                  </div>
+                  <div class="col-1"></div>
+                  <div class="col-2" style="margin-left: 10px">
+                    <div class="card text-center totalcard mb-3">
+                      <div class="card-body">
+                        <h3>Total Blog Posts</h3>
+                        <h4 class="display-4">
+                          <span id="postCount">23</span>
+                        </h4>
+                        <a
+                          href="blog-new.html"
+                          class="btn btn-outline-grey bg-light btn-sm"
+                          ><i class="fas fa-plus"></i> Add new Blog</a
+                        >
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
