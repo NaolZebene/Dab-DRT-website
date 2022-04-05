@@ -326,14 +326,14 @@
                   <div class="col-2" style="margin-left: 10px">
                     <div class="card text-center totalcard mb-3">
                       <div class="card-body">
-                        <h3>Total Blog Catagores</h3>
+                        <h3>Total Blog Tags</h3>
                         <h4 class="display-4">
                           <span id="postCount">9</span>
                         </h4>
                         <a
-                          href="#addCatagories"
+                          href="#addTags"
                           class="btn btn-outline-grey bg-light btn-sm"
-                          ><i class="fas fa-plus"></i> Add a new catagory</a
+                          ><i class="fas fa-plus"></i> Add a new Tag</a
                         >
                       </div>
                     </div>
@@ -342,29 +342,23 @@
               </div>
             </div>
             <!-- second part -->
-            <div class="card shadow topmargin" id="addCatagories">
+            <div class="card shadow topmargin" id="addTags">
               <div class="card-header py-3">
-                <p class="text-primary m-0 font-weight-bold">
-                  All Blog Catagory
-                </p>
+                <p class="text-primary m-0 font-weight-bold">All Blog Tags</p>
               </div>
               <div class="card-body">
                 <div class="modal-body">
                   <form id="postForm">
                     <div class="form-group">
-                      <label for="catagoryTitle">Title</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="catagoryTitle"
-                      />
+                      <label for="tagTitle">Title</label>
+                      <input type="text" class="form-control" id="tagTitle" />
                     </div>
                     <div class="form-group">
-                      <label for="categoryDescription">Description</label>
+                      <label for="tagDescription">Description</label>
                       <input
                         type="text"
                         class="form-control"
-                        id="categoryDescription"
+                        id="tagDescription"
                       />
                     </div>
                     <button
@@ -372,7 +366,7 @@
                       data-dismiss="modal"
                       style="margin: 30px 50px"
                     >
-                      Add Catagory
+                      Add Tag
                     </button>
                   </form>
                 </div>
