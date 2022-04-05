@@ -455,7 +455,7 @@ section {
 .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #0a5775;
+    color: #57b947;
 }
 
 .navbar-mobile a:hover,
@@ -491,7 +491,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #57b947;
+    color: #;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
